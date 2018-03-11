@@ -17,8 +17,9 @@ Creating a path to use in the script is easy.
 4) Enable Streetview Overlay.
 5) Create your desired route along the blue streetview paths.
 
-Note: 
-```The points plotted shown on the top right corner is a good indiction of how many images the script will pull along the given path.```
+Note: <br/>
+```The points plotted shown on the top right corner is a good indiction of how many images the script will pull along the given path.
+```
 
 6) Download and save as 'File type: GPX, File Format: GPX, GPX TYPE: Track'. 
 
@@ -26,7 +27,6 @@ Note:
 1) Put your .gpx file in the same directory as the script.
 2) Open the script and change the API_KEY, SAVE_PATH, and GPX_FILE variables.
 3) Run the script
-Usage:
 ```Python
-Python street.py
+python street.py
 ```
