@@ -3,7 +3,7 @@ This python script will pull google street images along a given path specified b
 
 ![Image](https://i.imgur.com/DJVnF7e.png)
 
-The ```/other``` folder contains scripts to rename and remove invalid image files.
+The ```other``` folder contains scripts to rename image files and to remove invalid image files.
 
 # Prerequisites
 - Python 2
@@ -15,9 +15,9 @@ Creating a path to use in the script is easy.
 ![Image](https://i.imgur.com/J8HoO1n.png)
 1) Go to https://www.plotaroute.com/routeplanner
 2) Enter the location you want to take streetview images from.
-3) Change Auto Pilot to 'On Foot'
+3) Change Auto Pilot to 'On Foot'.
 4) Enable Streetview Overlay.
-5) Create your desired route along the blue streetview paths. The number of points plotted shown on the top right corner is a good indiction of how many images the script will pull.
+5) Create your desired route along the blue streetview paths. The number of points plotted is a good indiction of how many images the script will pull.
 6) Download and save as 'File type: GPX, File Format: GPX, GPX TYPE: Track'. 
 
 # Running the script
