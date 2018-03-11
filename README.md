@@ -15,12 +15,7 @@ Creating a path to use in the script is easy.
 2) Enter the location you want to take streetview images from.
 3) Change Auto Pilot to 'On Foot'
 4) Enable Streetview Overlay.
-5) Create your desired route along the blue streetview paths.
-
-Note: <br/>
-```The points plotted shown on the top right corner is a good indiction of how many images the script will pull along the given path.
-```
-
+5) Create your desired route along the blue streetview paths. The number of points plotted shown on the top right corner is a good indiction of how many images the script will pull.
 6) Download and save as 'File type: GPX, File Format: GPX, GPX TYPE: Track'. 
 
 # Running the script
