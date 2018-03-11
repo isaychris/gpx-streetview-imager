@@ -1,7 +1,9 @@
 # gpx-streetview-imager
-This python script will pull google street images along a given path specified by a .gpx file
+This python script will pull google street images along a given path specified by a .gpx file.
 
 ![Image](https://i.imgur.com/DJVnF7e.png)
+
+The ```/other``` folder contains scripts to rename and remove invalid image files.
 
 # Prerequisites
 - Python 2
