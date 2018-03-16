@@ -1,21 +1,18 @@
 import os
-import getcolor
 
 indir = "C:\Users\Chris\Desktop\street_images"
 
-print("Location: " + indir)
-option = raw_input("Are you sure you want to clean from this location? [y/n]: ")
+print("Running script ...")
+clean_count = 0
 
-if option == "y" or "Y":
-    print("Running script ...")
+for root, dirs, filenames in os.walk(indir):
+    for f in filenames:
+        file_path = os.path.join(indir, f)
+        image_size = os.path.getsize(file_path)
 
-    for root, dirs, filenames in os.walk(indir):
-        for f in filenames:
-            file_path = os.path.join(indir, f)
-            color = getcolor.get_color(file_path)
+        if image_size < 9000:
+            os.remove(file_path)
+            print(" - Deleting " + file_path)
+            clean_count += 1
 
-            if color[0] == '#e3e2dd' or color[0] == "#e3e2de":
-                os.remove(file_path)
-                print(" - Deleting " + file_path)
-
-    print("Script completed ...")
+print("Script completed ... Amount cleaned = " + str(clean_count))
