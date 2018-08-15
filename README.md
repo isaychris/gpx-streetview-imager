@@ -1,6 +1,10 @@
 # gpx-streetview-imager
 This python script will pull google street images along a given path specified by a .gpx file.
 
+There are two versions of the script:
+* [street.py] = Pulls images along a given path at random angles.
+* [street2.py] = Pulls images along a given path at a fixed angle (Hyperlapse effect).
+
 ![Image](https://i.imgur.com/DJVnF7e.png)
 
 The ```other``` folder contains scripts to rename image files and to remove invalid image files.
